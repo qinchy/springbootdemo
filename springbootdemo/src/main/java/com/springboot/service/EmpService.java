@@ -19,8 +19,8 @@ public class EmpService {
     @Autowired
     private EmpMapper empMapper;
 
-    public List<Emp> getEmp(int empNo) {
-        List<Emp> list = empMapper.getEmp(empNo);
+    public Emp getEmp(int empNo) {
+        Emp list = empMapper.getEmp(empNo);
         return list;
     }
 }

@@ -10,5 +10,5 @@ import java.util.List;
  */
 @Mapper
 public interface EmpMapper {
-    public List<Emp> getEmp(int empNo);
+    public Emp getEmp(int empNo);
 }

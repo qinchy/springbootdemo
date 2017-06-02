@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>freemarker</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>字段</td>
+        <td>数值</td>
+    </tr>
+    <tr>
+        <td>empNo</td>
+        <td>${empNo}</td>
+    </tr>
+    <tr>
+        <td>deptNo</td>
+        <td>${deptNo}</td>
+    </tr>
+</table>
+</body>
+</html>
